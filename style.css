@@ -1,0 +1,62 @@
+
+body{
+    margin : 0;
+    padding: 0;
+    background : linear-gradient(to left top ,rgb(243, 243, 153),rgb(211, 136, 136),rgb(243, 243, 153));
+}
+.container{
+    padding : 10px;
+}
+.heading{
+    margin-left: 5rem;
+}
+.show-item{
+    height : 400px;
+    width: 300px;
+    margin-left : 10px;
+    
+}
+.data{
+    /* height: 50px;*/
+    margin : 20px 2px;
+    display: inline-block;
+    width: 280px;
+    border-radius : 10px;
+    padding : 3px;
+    font-size: 22px;
+
+}
+
+#todo{
+    margin-top : 10px;
+    margin-left: 5px;
+    width : 260px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#enter-btn{
+    height: 30px;
+    border-radius: 10px;
+}
+#enter-btn:hover{
+    background-color: green;
+    color: white;
+    cursor : pointer;
+}
+.del_btn{
+    height: 20px;
+    width: 50px;
+    /* padding: 4px; */
+    /* margin-left: 180px; */
+    border-radius: 10px;
+    background-color: rgb(203, 116, 116);
+}
+.edit_btn{
+    background-color: rgb(132, 195, 117);
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+}
